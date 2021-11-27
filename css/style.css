@@ -13,22 +13,22 @@
     background: linear-gradient(var(--blue-color),var(--pink-color));
     border-radius: 20px;
 }
-body {
-    font-family: Lato,helvetica,arial,Lucida Grande,sans-serif;
+*,::before,::after{
+    box-sizing: inherit;
 }
-nav navbar {
-    width: 100px;
-    padding-right: 0px;
+body{
+    font-family: Lato,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+nav .navbar {
+    width: 100%;
+    padding-right: 20px;
 }
 .navbar-brand {
     margin-right: 70%;
     font-weight: 800;
 }
-.h2 {
-    margin-right: 10%;
-}
-.nav item a {
-    font-size: 50px;
+.nav-item a{
+    font-size: 20px;
     font-weight: 700;
 }
 .hero {
@@ -38,14 +38,14 @@ nav navbar {
     background-size: cover;
     background-position: center;
 }
-h1 {
+h1{
     color: #00b373;
     font-size: 50px;
 }
-h5 {
+h5{
     color: white;
 }
-.button {
+.button{
     border-radius: 10px;
     background: #fed401;
 }
