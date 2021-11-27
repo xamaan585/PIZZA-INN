@@ -142,3 +142,25 @@ function validateOrder(){
         return false;
     }
 }
+function validateForm(event){
+    event.preventDefault()
+    let name=document.elementById("name").value;
+    let phone=document.elementById("phone").value;
+    let location=document.elementById("location").value;
+
+    if(phone==="" ||phone.length>10){
+        alert("please enter a valid phone number");
+        return false;
+    }
+    else if(name===""){
+        alert("provide a valid name");
+        return false;
+    }
+    else if(location===""){
+        alert("please provide your location for delivery");
+        return false;
+    }
+    else {
+        alert("Your order will be delivered at a cost of ksh.200")
+    }
+}

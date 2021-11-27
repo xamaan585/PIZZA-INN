@@ -52,7 +52,6 @@ h5{
 .menu {
     text-align: center;
 }
-form {
-    background-color: blue;
-    font-color: white;
+.form {
+    color: blue;
 }

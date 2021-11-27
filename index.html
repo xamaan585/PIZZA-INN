@@ -74,173 +74,181 @@
             </div>
 
                 <!-- menu section-->
-                <div class="container-fluid">
-                    <div class="menu content-text mt-100">
-                        <h2 class="text-center">Menu</h2>
+                <section id="menu" class="Menu">
+                    <div class="portfolio content mt-100">
+                        <h2 class=text-center>Menu</h2>
                                 <hr>
-                    </div>
-                            <div class="col-md-2">
-                                <div class="card mb-2">
-                                    <img src="assets/h-image.jpg" alt="Hawaiian pizza">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Hawaiian Pizza</h4>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="view-over-lay">
+                                        <div class="image-frame">
+                                            <img src="/assets/ha-image.jpg" class="img-fluid" alt="sample image">
+                                            <h4>Hawaaian Pizza</h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>    
-                            <div class="col-md-2">
-                                <div class="card mb-2">
-                                    <img src="assets/m-image.jpg" alt="Margherita pizza">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Margherita Pizza</h4>
+                                <div class="col-md-3">
+                                    <div class="view-over-lay">
+                                        <div class="image-frame">
+                                            <img src="/assets/m-image.jpeg" class="img-fluid" alt="sample image">
+                                            <h4>Margherita Pizza</h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>  
-                            <div class="col-md-2 ">
-                                <div class="card mb-2">
-                                    <img src="assets/me-image.jpg" alt="Meat pizza">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Meat Pizza</h4>
+                                <div class="col-md-3">
+                                    <div class="view-over-lay">
+                                        <div class="image-frame">
+                                            <img src="/assets/me-image.webp" class="img-fluid" alt="sample image">
+                                            <h4>Meat Pizza</h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>  
-                            <div class="col-md-2">
-                                <div class="card mb-2">
-                                    <img src="assets/W-image.jpg" alt="Works pizza">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Works Pizza</h4>
+                                <div class="col-md-3">
+                                    <div class="view-over-lay">
+                                        <div class="image-frame">
+                                            <img src="/assets/p-image.jpg" class="img-fluid" alt="sample image">
+                                            <h4>Pepperoni Pizza</h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>  
-                            <div class="col-md-2">
-                                <div class="card mb-2">
-                                    <img src="assets/v-image.jpg" alt="Viggie pizza">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Vigie Pizza</h4>
+                            </div><br>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="view-over-lay">
+                                        <div class="image-frame">
+                                            <img src="/assets/h-image.jpg" class="img-fluid" alt="sample image">
+                                            <h4>Works Pizza</h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div> 
-                            <div class="col-md-2">
-                                <div class="card mb-2">
-                                    <img src="assets/p-image.jpg" alt="Pepperoni pizza">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Pepperoni Pizza</h4>
+                                <div class="col-md-3">
+                                    <div class="view-over-lay">
+                                        <div class="image-frame">
+                                            <img src="/assets/v-image.jpeg" class="img-fluid" alt="sample image">
+                                            <h4>Viggie Pizza</h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div> 
+                                
+                                
+                            </div>
                         </div>
                     </div>
-                </div>
-            
-            </section> 
+                </section> 
+                
                 <!--form-->  
-            <div class="container-fluid bg-sucess mt-5" id="make-order">
-                <div class="order-overlay">
-                    <div class="controls-top text-center" id="Order-now">
-                        <h2 class="order">ORDER HERE</h2>
-                                        <hr>
-                    </div>
-                    <h2>Make your order</h2><br>
-                    <div class="row">
-                        <div class="col-sm-5 shadow">
-                            <form action="" id="myForm" onsubmit="validateOrder()">
-                                <label for="select">Select your flavour</label><br>
-                                <select class="browser-default form-select-lg mb-4" id="flavor">
-                                    <option value="">Select your flavor</option>
-                                    <option value="0">Hawaaian Pizza</option>
-                                    <option value="1">Margherita Pizza</option>
-                                    <option value="2">Meat Pizza</option>
-                                    <option value="3">Pepperoni Pizza</option>
-                                    <option value="4">Works Pizza</option>
-                                    <option value="5">Viggie Pizz</option>
-                                </select><br>
-
-                                <!--pizza option size-->
-                                <label for="select-size">Select your size</label><br>
-                                <select class="browser-default form-select-lg mb-4" id="size">
-                                    <option value="">Select your pizza size</option>
-                                    <option value="0">Large--ksh.1250</option>
-                                    <option value="1">Median--ksh.850</option>
-                                    <option value="2">Small--ksh.650</option>
-                                </select><br>
-
-                                <!--select crust-->
-                                <label for="crust">Choose your favourite crust</label><br>
-                                <select class="browser-default form-select-lg mb-4" id="size">
-                                    <option value="">Select your preffered crust</option>
-                                    <option value="0">Crispy--ksh.220</option>
-                                    <option value="1">Stuffed--ksh.170</option>
-                                    <option value="2">Gluten-free--ksh.150</option>
-                                </select><br>
-
-                                <!-- toppings selection -->
-                                <label for="toppings">select your topping</label><br>
-                                <select class="browser-default form-select-lg mb-4" id="topping">
-                                    <option value="">Select your toppings</option>
-                                    <option value="0">Bacon--ksh.60</option>
-                                    <option value="1">Sausage--ksh.90</option>
-                                    <option value="2">Mushroom--ksh.80</option>
-                                </select><br><br>
-
-                                <label for="number"></label>
-                                <option value="">Number of pizza</option>
-                                <input type="number" id="num"><br><br>
-
-                                <button type="submit" class="btn btn-success" id="order">Order</button><br>
-                            </form>
-                        </div>
-
-                        <!--order section information-->
-                        <div class="col-sm-7 p-2 shadow">
-                            <div id="info">
-                                <p>Your order will be processed within forty minutes</p>
-                                <p>Feel free to reach in case of any complains</p>
+                <div id="Our-services">
+                    <div class="container-fluid bg-success mt-5" id="make-order">
+                        <div class="order-overlay">
+                            <div class="controls-top text-center" id="Order-now ">
+                                <h2 class="order">Order Here</h2>
                             </div>
-                            <div class="choice">
-                                <h2 class="order">Your order is:</h2>
-                                <div id="your orders">
-                                    <table class="table table-sm">
-                                        <th>
-                                            <tr>
-                                                <th scope="col">Name</th>
-                                                <th scope="col">Size</th>
-                                                <th scope="col">Crust</th>
-                                                <th scope="col">Topping</th>
-                                                <th scope="col">Number</th>
-                                                <th scope="col">Total</th>
-                                            </tr>
-                                        </th>
-                                        <tbody id="ordersmade">
-                                            <tr>
-                                                <td id="pizzaname"></td>
-                                                <td id="pizzasize"></td>
-                                                <td id="pizzacrust"></td>
-                                                <td id="pizzatopping"></td>
-                                                <td id="pizzanumber"></td>
-                                                <td id="totals"></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <div>
-                                        <input type="radio" id="Yes">Yes &nbsp;
-                                        <input type="radio" id="No">No
+                            <h2>Make your order</h2>
+                            <div class="row">
+                                <div class="col-sm-5 shadow">
+                                    <form action="" id="myForm" onsubmit="validateOrder()">
+                                        <label for="select">Select your Flavor</label><br>
+                                        <select class="browser-default form-select-lg mb-4" id="flavor">
+                                            <option value="">select your flavor</option>
+                                            <option value="0">Hawaiian Pizza</option>
+                                            <option value="1">Margherita Piza</option>
+                                            <option value="2">Meat Pizza</option>
+                                            <option value="3">Pepperoni Pizza</option>
+                                            <option value="4">Works Pizza</option>
+                                            <option value="5">Veggie Pizza</option>
+                                        </select><br>
+            
+                                        <!-- pizza option size -->
+                                        <label for="select-size">Select your Size</label><br>
+                                        <select class="browser-default form-select-lg mb-4 " id="size">
+                                            <option value="">Select your pizza size</option>
+                                            <option value="0">Large--ksh.1250</option>
+                                            <option value="1">Medium--ksh.850</option>
+                                            <option value="2">Small--ksh.650</option>
+                                        </select><br>
+            
+                                        <!-- select crust -->
+                                        <label for="crust">Choose your favorite Crust</label><br>
+                                        <select class="browser-default form-select-lg mb-4" id="crust">
+                                            <option value="">Select your preferred crust</option>
+                                            <option value="0">Crispy--ksh.220</option>
+                                            <option value="1">Stuffed--ksh.170</option>
+                                            <option value="2">Gluten-free--ksh.150</option>
+                                        </select><br>
+            
+                                        <!-- toppings selection -->
+                                        <label for="toppings">select your topping</label><br>
+                                        <select class="browser-default form-select-lg mb-4" id="topping">
+                                            <option value="">Select your toppings</option>
+                                            <option value="0">Bacon--ksh.60</option>
+                                            <option value="1">Sausage--ksh.90</option>
+                                            <option value="2">Mushroom--ksh.80</option>
+                                        </select><br><br>
+            
+                                        <label for="number"></label>
+                                        <option value="">Number of pizza</option>
+                                        <input type="number" id="num"><br><br>
+            
+                                        <button type="submit" class="btn btn-success" id="order">Order</button>
+                                    </form>
+                                </div>
+            
+                                <!-- order section information -->
+                                <div class="col-sm-7 p-2 shadow">
+                                    <div id="info">
+                                        <p>Your order will be processed within forty minutes</p>
+                                        <p>Feel free to reach us in case of any complains</p>
+            
+                                    </div>
+                                    <div class="choice">
+                                        <h2 class="order">Your order is:</h2>
+                                        <div id="your orders">
+                                            <table class="table table-sm">
+                                                <th>
+                                                    <tr>
+                                                        <th scope="col">Name</th>
+                                                        <th scope="col">Size</th>
+                                                        <th scope="col">Crust</th>
+                                                        <th scope="col">Topping</th>
+                                                        <th scope="col">Number</th>
+                                                        <th scope="col">Total</th>
+                                                    </tr>
+                                                </th>
+                                                <tbody id="ordersmade">
+                                                    <tr>
+                                                        <td id="pizzaname"></td>
+                                                        <td id="pizzasize"></td>
+                                                        <td id="pizzacrust"></td>
+                                                        <td id="pizzatopping"></td>
+                                                        <td id="pizzanumber"></td>
+                                                        <td id="totals"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div>
+                                                <input type="radio" id="Yes">Yes &nbsp;
+                                                <input type="radio" id="No">No
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-orange"></button>
+                                        <button class="btn btn-orange" id="checkout">Checkout</button>
+                                        <button class="btn btn-orange delivery">Home</button>
+                                    </div>
+                                    <div class="delivery">
+                                        <form onsubmit="validateForm()">
+                                            <input type="text" id="name" class="form-control mb-3" placeholder="Name...">
+                                            <input type="number" id="phone" class="form-control mb-3" placeholder="Phone number...">
+                                            <input type="text" id="location" class="form-control mb-3"
+                                                placeholder="location for delivery..">
+                                            <button class="btn btn-success" id="final">Place Order</button>
+                                        </form>
                                     </div>
                                 </div>
-                                <button class="btn btn-orange"></button>
-                                <button class="btn btn-orange" id="checkout">Checkout</button>
-                                <button class="btn btn-orange delivery">Home</button>
-                            </div>
-                            <div class="delivery">
-                                <form onsubmit="validateForm()">
-                                <input type="text" id="name" class="form-control mb-3" placeholder="Name...">
-                                <input type="text" id="phone" class="form-control mb-3" placeholder="Phone number...">
-                                <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery...">
-                                </form>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>           
-                                   
+                </div><br>
         </main>
 
     <script src="js/jquery.js"></script>
