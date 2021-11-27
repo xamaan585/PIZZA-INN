@@ -49,3 +49,10 @@ h5{
     border-radius: 10px;
     background: #fed401;
 }
+.menu {
+    text-align: center;
+}
+form {
+    background-color: blue;
+    font-color: white;
+}
